@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSRTC - Gujarat State Road Transport Corporation</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Background Slideshow -->
+    <div class="background-slideshow">
+        <div class="slide"></div>
+        <div class="slide"></div>
+        <div class="slide"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <nav class="nav-wrapper">
+                <div class="logo">
+                    <i class="fas fa-bus"></i>
+                    <span class="logo-text">GSRTC</span>
+                </div>
+                <div class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#booking">Book Ticket</a>
+                    <a href="#tracking">Track Bus</a>
+                    <a href="#passes">Bus Passes</a>
+                    <a href="#about">About</a>
+                </div>
+                <div class="nav-actions">
+                    <select class="language-selector">
+                        <option value="en">English</option>
+                        <option value="gu">ગુજરાતી</option>
+                        <option value="hi">हिंदी</option>
+                    </select>
+                    <button class="login-btn">Login</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container">
+            <div class="hero-grid">
+                <!-- Left Column - CTA -->
+                <div class="hero-content">
+                    <h1>Your Journey,<br>Our Responsibility</h1>
+                    <p class="hero-subtitle">Experience comfortable and safe travel across Gujarat with India's leading state transport service.</p>
+                    
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-bus"></i>
+                            <div class="stat-info">
+                                <h4>1000+</h4>
+                                <p>Daily Routes</p>
+                            </div>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-users"></i>
+                            <div class="stat-info">
+                                <h4>2M+</h4>
+                                <p>Happy Passengers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column - Simplified Booking Card -->
+                <div class="booking-card">
+                    <div class="booking-header">
+                        <h2>Where would you like to go?</h2>
+                    </div>
+
+                    <form class="booking-form">
+                        <div class="form-group">
+                            <div class="input-icon">
+                                <i class="fas fa-circle-dot"></i>
+                                <input type="text" placeholder="Enter source city">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-icon">
+                                <i class="fas fa-location-dot"></i>
+                                <input type="text" placeholder="Enter destination city">
+                            </div>
+                        </div>
+
+                        <button type="submit" class="search-btn">
+                            Search Buses
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </form>
+
+                    <div class="popular-routes">
+                        <p>Popular Routes:</p>
+                        <div class="route-tags">
+                            <span class="route-tag">Ahmedabad → Surat</span>
+                            <span class="route-tag">Vadodara → Rajkot</span>
+                            <span class="route-tag">Surat → Bhuj</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Why Choose GSRTC?</h2>
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Safe Journey</h3>
+                    <p>Professional drivers and well-maintained buses ensure your safety</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Punctual Service</h3>
+                    <p>Timely departures and arrivals for your convenience</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Wide Network</h3>
+                    <p>Extensive route coverage across Gujarat</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock customer assistance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fleet Section -->
+    <section class="fleet-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Fleet</h2>
+                <p class="section-subtitle">Choose from our wide range of comfortable buses</p>
+            </div>
+            
+            <div class="fleet-grid">
+                <!-- Volvo Bus -->
+                <div class="fleet-card">
+                    <div class="fleet-image">
+                        <img 
+                            src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?q=80&w=2069&auto=format&fit=crop" 
+                            alt="Volvo AC Bus"
+                            loading="lazy"
+                        >
+                        <div class="fleet-overlay">
+                            <span class="fleet-tag">Premium</span>
+                        </div>
+                    </div>
+                    <div class="fleet-info">
+                        <h3>Volvo AC</h3>
+                        <ul class="fleet-features">
+                            <li>
+                                <i class="fas fa-snowflake"></i>
+                                <span>Air Conditioned</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-couch"></i>
+                                <span>Pushback Seats</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-tv"></i>
+                                <span>Entertainment System</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Sleeper Bus -->
+                <div class="fleet-card">
+                    <div class="fleet-image">
+                        <img 
+                            src="https://images.unsplash.com/photo-1570125909232-eb263c188f7e?q=80&w=2071&auto=format&fit=crop" 
+                            alt="Sleeper Bus"
+                            loading="lazy"
+                        >
+                        <div class="fleet-overlay">
+                            <span class="fleet-tag">Comfort</span>
+                        </div>
+                    </div>
+                    <div class="fleet-info">
+                        <h3>Sleeper Coach</h3>
+                        <ul class="fleet-features">
+                            <li>
+                                <i class="fas fa-bed"></i>
+                                <span>Comfortable Berths</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-moon"></i>
+                                <span>Night Travel</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-charging-station"></i>
+                                <span>Charging Points</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Standard Bus -->
+                <div class="fleet-card">
+                    <div class="fleet-image">
+                        <img 
+                            src="https://images.unsplash.com/photo-1494515843206-f3117d3f51b7?q=80&w=1472&auto=format&fit=crop" 
+                            alt="Standard Bus"
+                            loading="lazy"
+                        >
+                        <div class="fleet-overlay">
+                            <span class="fleet-tag">Standard</span>
+                        </div>
+                    </div>
+                    <div class="fleet-info">
+                        <h3>Standard Bus</h3>
+                        <ul class="fleet-features">
+                            <li>
+                                <i class="fas fa-chair"></i>
+                                <span>Comfortable Seats</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-wind"></i>
+                                <span>Ventilated</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-wallet"></i>
+                                <span>Economic</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <i class="fas fa-bus-alt"></i>
+                    <h3 class="counter">2000+</h3>
+                    <p>Daily Buses</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-users"></i>
+                    <h3 class="counter">1M+</h3>
+                    <p>Happy Passengers</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-route"></i>
+                    <h3 class="counter">1200+</h3>
+                    <p>Routes</p>
+                </div>
+                <div class="stat-item">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3 class="counter">400+</h3>
+                    <p>Destinations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Routes Section -->
+    <section class="routes-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Popular Routes</h2>
+                <p class="section-subtitle">Most frequently traveled destinations</p>
+            </div>
+            
+            <div class="routes-grid">
+                <div class="route-card">
+                    <div class="route-info">
+                        <div class="route-cities">
+                            <div class="city from">
+                                <i class="fas fa-circle-dot"></i>
+                                <div>
+                                    <h3>Ahmedabad</h3>
+                                    <p>Departure: 6:00 AM</p>
+                                </div>
+                            </div>
+                            <div class="route-line">
+                                <i class="fas fa-arrow-right"></i>
+                            </div>
+                            <div class="city to">
+                                <i class="fas fa-location-dot"></i>
+                                <div>
+                                    <h3>Surat</h3>
+                                    <p>Arrival: 11:30 AM</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="route-details">
+                            <span><i class="far fa-clock"></i> 5.5 hrs</span>
+                            <span><i class="fas fa-bus"></i> 50+ Buses</span>
+                            <span><i class="fas fa-indian-rupee-sign"></i> From ₹350</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary book-btn">
+                        <i class="fas fa-ticket-alt"></i>
+                        Book Now
+                    </button>
+                </div>
+                <!-- Add more route cards with different cities -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile App Section -->
+    <section class="app-section">
+        <div class="container">
+            <div class="app-content">
+                <div class="app-info">
+                    <h2>Download Our Mobile App</h2>
+                    <p class="app-description">Book tickets, track buses, and manage your journeys on the go!</p>
+                    <ul class="app-features">
+                        <li><i class="fas fa-check-circle"></i> Instant Booking</li>
+                        <li><i class="fas fa-check-circle"></i> Live Bus Tracking</li>
+                        <li><i class="fas fa-check-circle"></i> Paperless Tickets</li>
+                        <li><i class="fas fa-check-circle"></i> Easy Cancellation</li>
+                    </ul>
+                    <div class="app-buttons">
+                        <a href="#" class="app-btn">
+                            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" 
+                                 alt="Get it on Play Store">
+                        </a>
+                        <a href="#" class="app-btn">
+                            <img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg"
+                                 alt="Download on App Store">
+                        </a>
+                    </div>
+                </div>
+                <div class="app-image">
+                    <img src="https://www.gsrtc.in/site/images/mobile-app.png" 
+                         alt="GSRTC Mobile App"
+                         onerror="this.src='https://cdn.dribbble.com/users/2376408/screenshots/7266938/media/80c2c6c973c4ee2b2ef624f81c374594.png'">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Passengers Say</h2>
+                <p class="section-subtitle">Real experiences from our valued customers</p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Very comfortable journey with professional staff. The bus was clean and punctual.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="assets/images/user1.jpg" alt="User">
+                        <div class="author-info">
+                            <h4>Rajesh Patel</h4>
+                            <p>Regular Traveler</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more testimonial cards -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <!-- Company Info -->
+                    <div class="footer-col">
+                        <div class="footer-logo">
+                            <i class="fas fa-bus"></i>
+                            <span>GSRTC</span>
+                        </div>
+                        <p class="footer-about">Gujarat State Road Transport Corporation provides safe and reliable bus services across Gujarat.</p>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div class="footer-col">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Bus Types</a></li>
+                            <li><a href="#">Routes</a></li>
+                            <li><a href="#">Time Table</a></li>
+                            <li><a href="#">Track Bus</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Services -->
+                    <div class="footer-col">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#">Book Ticket</a></li>
+                            <li><a href="#">Cancel Ticket</a></li>
+                            <li><a href="#">Bus Pass</a></li>
+                            <li><a href="#">Parcel Service</a></li>
+                            <li><a href="#">Special Hire</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div class="footer-col">
+                        <h4>Contact Us</h4>
+                        <div class="contact-info">
+                            <p>
+                                <i class="fas fa-phone"></i>
+                                Helpline: 1800-233-444
+                            </p>
+                            <p>
+                                <i class="fas fa-envelope"></i>
+                                info@gsrtc.gujarat.gov.in
+                            </p>
+                            <p>
+                                <i class="fas fa-map-marker-alt"></i>
+                                Central Office, Naroda, Ahmedabad-382345
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2024 GSRTC. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/booking.js"></script>
+</body>
+</html> 
